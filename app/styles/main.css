@@ -1,0 +1,67 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  max-width: 700px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: lightblue;
+  border-radius: 6px;
+  padding: 60px;
+}
+
+.hero-unit h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align-last: center;
+}
+
+.hero-unit h3 {
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align-last: center;
+}
+.hero-unit div {
+  pointer-events:none;
+  cursor: default;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start
+}
+
+.hero-image{
+  pointer-events:none;
+  cursor: default;
+  width: 80%;
+}
+.hero-square{   
+  pointer-events: all;
+  cursor: pointer;
+  background-color: lightcoral;
+  position: relative;
+  width: 20%;
+  padding-top: 20%;
+  margin-left: -10%;
+  margin-top: 10%;
+  z-index:1;
+}
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
